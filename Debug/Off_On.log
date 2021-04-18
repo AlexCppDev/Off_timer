@@ -1,0 +1,8 @@
+﻿  Off_On.cpp
+Off_On.obj : error LNK2019: unresolved external symbol "public: void __thiscall time_of_project::Sorted_Time::set_hours(int)" (?set_hours@Sorted_Time@time_of_project@@QAEXH@Z) referenced in function _main
+Off_On.obj : error LNK2019: unresolved external symbol "public: int __thiscall time_of_project::Sorted_Time::get_hours(void)" (?get_hours@Sorted_Time@time_of_project@@QAEHXZ) referenced in function _main
+Off_On.obj : error LNK2019: unresolved external symbol "public: void __thiscall time_of_project::Sorted_Time::set_minutes(int)" (?set_minutes@Sorted_Time@time_of_project@@QAEXH@Z) referenced in function _main
+Off_On.obj : error LNK2019: unresolved external symbol "public: int __thiscall time_of_project::Sorted_Time::get_minutes(void)" (?get_minutes@Sorted_Time@time_of_project@@QAEHXZ) referenced in function _main
+Off_On.obj : error LNK2019: unresolved external symbol "public: void __thiscall time_of_project::Sorted_Time::set_seconds(int)" (?set_seconds@Sorted_Time@time_of_project@@QAEXH@Z) referenced in function _main
+Off_On.obj : error LNK2019: unresolved external symbol "public: int __thiscall time_of_project::Sorted_Time::get_seconds(void)" (?get_seconds@Sorted_Time@time_of_project@@QAEHXZ) referenced in function _main
+G:\On_Off\Off_On\Debug\Off_On.exe : fatal error LNK1120: 6 unresolved externals
