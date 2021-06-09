@@ -1,11 +1,9 @@
-#ifndef CALCUTATE_H
-#define CALCUTATE_H
 
+#include "time_proj.h"
 
-class Calcutate
-{
-public:
-    Calcutate();
-};
+ class Calculating
+    {
+    public:
+        static int get_needed_time(int, int, int);
+    };
 
-#endif // CALCUTATE_H

@@ -16,11 +16,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    calcutate.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    time_proj.cpp
 
 HEADERS += \
-    mainwindow.h
+    calcutate.h \
+    mainwindow.h \
+    time_proj.h
 
 FORMS += \
     mainwindow.ui
